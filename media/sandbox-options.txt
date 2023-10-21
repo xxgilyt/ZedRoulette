@@ -2,7 +2,7 @@ VERSION = 1,
 
 option ZedRoulette.rewardsList
 {
-	type = string, default = name=Base.Katana|probability=1;name=Base.Machete|probability=2,
+	type = string, default = name=Base.Battery|probability=5;name=Base.DuctTape|probability=4;Base.Axe|probability=5;Base.Saucepan|probability=2;Base.Katana|probability=1,
 	page = ZedRoulette
 }
 
