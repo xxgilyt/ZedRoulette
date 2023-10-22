@@ -38,7 +38,6 @@ local function generateRandomReward()
 end
 
 local function onZombieKill(zombie)
-  print(SandboxVars.ZedRoulette.rewardsList)
   local reward = generateRandomReward()
   if reward then
     local item = ScriptManager.instance:FindItem(reward)
